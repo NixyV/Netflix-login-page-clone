@@ -1,0 +1,97 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-image: url(BR-pt-20230320-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.397);
+}
+:root{
+    --red: #f00404fa;
+    --white-me: #EDDAE6;
+    --netflix-white: #fff;
+    --netflix-cinz: #110e0ece;
+    --netflix-cinz2: #44414191;
+}
+
+div .Logo{
+    box-shadow: black;
+    margin: 9px 30px;
+    height: 90px;
+    width: 160px;
+    fill: var(--red);
+}
+div .Login-page{
+    margin: 30px 440px;
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    padding: 40px 58px 58px 20px;
+    background-color: var(--netflix-cinz);
+}
+div .Login-page h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    color: var(--netflix-white);
+}
+div .Login-page input{
+    background-color: var(--netflix-cinz2);
+    border-style: none;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-bottom: 16px;
+    width: 290px;
+    padding: 15px;
+    display: block;
+    color: white;
+}
+div .Login-page button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 20px;
+    width: 320px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px ;
+    margin-left: 37px;
+    background: var(--red);
+    color: var(--white-me);
+    border-style: none;
+}
+div .Login-page .Check{
+margin-left: -106px;
+margin-top: 2px;
+position: absolute;
+
+
+}
+div .Login-page span{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    position: absolute;
+    color: var(--white-me);
+}
+div .Login-page .Prj{
+    margin-left: 234px;
+}
+div .Login-page .paragrafo{
+    color: rgb(142, 150, 150);
+    margin-left: 36px;
+    margin-top: 60px;
+    
+}
+div .Login-page .paragrafo a{
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.993);
+}
+div .Login-page .Captcha{
+    margin-top: 10px;
+}
